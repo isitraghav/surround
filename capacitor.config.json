@@ -1,0 +1,13 @@
+{
+  "appId": "com.surround.app",
+  "appName": "surround",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

@@ -1,0 +1,25 @@
+{
+  "cwd": "/home/raghav/Desktop/projects",
+  "type": [
+    "web",
+    "capacitor"
+  ],
+  "name": "surround",
+  "pkg": "com.surround.app",
+  "framework": "svelte",
+  "template": "blank",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "capacitor": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "theming": {
+    "customColor": true,
+    "color": "#5588FF",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
