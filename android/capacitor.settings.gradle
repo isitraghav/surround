@@ -2,11 +2,17 @@
 include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/.pnpm/@capacitor+android@6.0.0_@capacitor+core@6.0.0/node_modules/@capacitor/android/capacitor')
 
+include ':capacitor-community-contacts'
+project(':capacitor-community-contacts').projectDir = new File('../node_modules/.pnpm/@capacitor-community+contacts@5.0.5_@capacitor+core@6.0.0/node_modules/@capacitor-community/contacts/android')
+
 include ':capacitor-app'
 project(':capacitor-app').projectDir = new File('../node_modules/.pnpm/@capacitor+app@6.0.0_@capacitor+core@6.0.0/node_modules/@capacitor/app/android')
 
 include ':capacitor-browser'
 project(':capacitor-browser').projectDir = new File('../node_modules/.pnpm/@capacitor+browser@6.0.0_@capacitor+core@6.0.0/node_modules/@capacitor/browser/android')
+
+include ':capacitor-geolocation'
+project(':capacitor-geolocation').projectDir = new File('../node_modules/.pnpm/@capacitor+geolocation@6.0.0_@capacitor+core@6.0.0/node_modules/@capacitor/geolocation/android')
 
 include ':capacitor-keyboard'
 project(':capacitor-keyboard').projectDir = new File('../node_modules/.pnpm/@capacitor+keyboard@6.0.0_@capacitor+core@6.0.0/node_modules/@capacitor/keyboard/android')
